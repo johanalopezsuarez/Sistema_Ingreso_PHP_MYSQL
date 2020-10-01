@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.header {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 45px;
+}
+
+.email-box {
+    width: 350px;
+    height: 300px;
+    background: #000;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.email-box h1 {
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.email-box h2{
+    margin:0;
+    padding: 0 0 a0px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.email-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.email-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.email-box input[type="text"],
+.email-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.email-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #bb8800;  
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+ .email-box a {
+    display: flexbox;
+    margin-bottom: 10px;
+    width: 40%;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px; 
+    color: darkgrey;
+} 
+
+.email-box a:hover {
+    color: #fff;
+}
+
+.boton-inicio,
+.boton-salir {
+    padding: 10px;
+    font-weight: 600; 
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #bb8800;
+    border: none;
+    border-radius: 15px;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+}
+
+.encabezado {
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
